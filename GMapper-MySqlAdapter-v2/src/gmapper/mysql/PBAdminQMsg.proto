@@ -1,0 +1,20 @@
+package gmapper.mysql;
+
+option java_package="gmapper.mysql";
+option java_outer_classname="ProtobufAdminQMsg";
+
+message AdminQMsg{
+
+	required string action = 1;
+	required string adaptor_type = 2;
+	required int32 adaptor_id = 3;
+	required int32 mapperId = 4;
+	required string sourceOrTarget = 5;
+	required string trigger_id=6;
+	required string table_id=7;
+
+
+}
+	
+	
+	

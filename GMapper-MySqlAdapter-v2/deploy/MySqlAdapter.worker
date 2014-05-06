@@ -1,0 +1,17 @@
+# define the runtime language
+runtime "java"
+# exec is the file that will be executed:
+exec "MySqlAdapter.jar"
+
+# include lib directory
+# dir "lib"
+
+# include the config file
+# file "config.properties"
+
+
+# 1. compile into jar
+# 2. move that jar file into deploy folder
+# 3. add library folder to .worker file (current file) if needed
+# 4. open terminal and go to /deploy folder
+# 5. run "iron_worker upload MySqlAdapter"
